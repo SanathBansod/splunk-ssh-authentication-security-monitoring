@@ -1,0 +1,5 @@
+source="ssh_logs_new.json" host="Sanath" sourcetype="_json"
+| stats count(eval(event_type="Failed SSH Login")) AS "Failed Logins"
+        count(eval(event_type="Successful SSH Login")) AS "Successful Logins"
+        by username
+| sort - "Failed Logins"

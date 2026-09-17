@@ -1,0 +1,16 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Splunk generated/local files
+*.log
+*.tmp
+*.bak
+
+# Raw/private datasets
+.env
+*.key
+*.pem
+credentials.*

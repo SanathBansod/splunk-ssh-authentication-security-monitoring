@@ -1,0 +1,3 @@
+source="ssh_logs_new.json" host="Sanath" sourcetype="_json"
+| stats count by event_type
+| sort - count

@@ -1,0 +1,2 @@
+source="ssh_logs_new.json" host="Sanath" sourcetype="_json" event_type="Failed SSH Login"
+| timechart span=1m count

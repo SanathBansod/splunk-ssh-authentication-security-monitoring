@@ -1,0 +1,3 @@
+source="ssh_logs_new.json" host="Sanath" sourcetype="_json" event_type="Failed SSH Login"
+| stats count AS "Failed Attempts" values(username) AS "Targeted Users" by id.orig_h
+| sort - "Failed Attempts"
