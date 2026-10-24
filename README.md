@@ -260,6 +260,17 @@ If suspicious activity is confirmed, possible response actions include:
 
 ---
 
+## 🧰 Detection Engineering & SOC Triage
+
+Companion documents to extend this project with alert logic, validation, and incident documentation:
+
+- [Detection Rules, Alert Triage & False-Positive Analysis](docs/detection-rule-and-false-positive-analysis.md)
+- [Sample SOC Incident Report Template](reports/sample-soc-incident-report-template.md)
+
+The detection threshold is an educational starting point. Validate event ordering, timestamp parsing, and environment context before treating a search result as an incident.
+
+---
+
 # 📄 Splunk Investigation Report
 
 The complete Splunk monitoring report is included as a PDF export. It contains the event-type analysis, source-IP analysis, failed-login analysis, targeted-user visualization, failed-vs-successful authentication visualization, suspicious-authentication visualization, and timeline analysis. fileciteturn10file0L3-L11
